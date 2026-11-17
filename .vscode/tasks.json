@@ -1,0 +1,23 @@
+/*{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar e executar main.c",
+      "type": "process",
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "cl /nologo main.c && main.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+} */
