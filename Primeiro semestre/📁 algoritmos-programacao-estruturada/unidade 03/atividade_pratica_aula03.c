@@ -12,7 +12,7 @@ typedef struct{
 
 int main() {
     Livro livros[NUM_LIVROS] = {
-        {"Memórias de um Futuro Esquecido", "Martelo de Assis", "1231231231239", 1899, 10},
+        {"Memórias de um Futuro Esquecido", "Machado de Assis", "1231231231239", 1899, 10},
         {"O Silêncio dos Inocentes Gritando", "Franz Kafta", "4564564564569", 1915, 5},
         {"A Menina que Roubava Livros e os Devolvia com Juros", "Dan Brownie", "7897897897899", 1949, 8}
     };
